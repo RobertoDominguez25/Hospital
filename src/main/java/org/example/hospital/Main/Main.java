@@ -1,4 +1,4 @@
-package org.example.hospital;
+package org.example.hospital.Main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("Hospital.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("Hello!");
         stage.setScene(scene);
