@@ -5,12 +5,12 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.pruebavilla.Controller.CocheController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hospital.Controller.HospitalController">
    <children>
       <Button fx:id="TxtEntrar" layoutX="274.0" layoutY="263.0" mnemonicParsing="false" onAction="#onClickEntrar" text="Entrar" />
       <Label fx:id="TxtDNI" layoutX="117.0" layoutY="109.0" text="DNI" />
       <Label fx:id="TxtPassword" layoutX="117.0" layoutY="173.0" text="Password" />
-      <TextField layoutX="234.0" layoutY="105.0" />
-      <TextField layoutX="234.0" layoutY="169.0" />
+      <TextField fx:id="TxtDni" layoutX="234.0" layoutY="105.0" />
+      <TextField fx:id="Txtpassword" layoutX="234.0" layoutY="169.0" />
    </children>
 </AnchorPane>
